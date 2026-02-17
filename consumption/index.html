@@ -1,0 +1,916 @@
+<!DOCTYPE html>
+<html lang="en">
+
+<head>
+  <meta charset="utf-8">
+  <meta content="width=device-width, initial-scale=1.0" name="viewport">
+  <title><title>Electricity Consumption Data Analysis | Tableau Project</title>
+
+  <meta name="description" content="Electricity Consumption Data Analysis project using Tableau with interactive dashboards and insights.">
+<meta name="keywords" content="Tableau, Data Analytics, Electricity Consumption, Dashboards">
+
+  <!-- Favicons -->
+  <link href="assets/img/favicon.png" rel="icon">
+  <link href="assets/img/apple-touch-icon.png" rel="apple-touch-icon">
+
+  <!-- Fonts -->
+  <link href="https://fonts.googleapis.com" rel="preconnect">
+  <link href="https://fonts.gstatic.com" rel="preconnect" crossorigin>
+  <link href="https://fonts.googleapis.com/css2?family=Open+Sans:ital,wght@0,300;0,400;0,500;0,600;0,700;0,800;1,300;1,400;1,500;1,600;1,700;1,800&family=Poppins:ital,wght@0,100;0,200;0,300;0,400;0,500;0,600;0,700;0,800;0,900;1,100;1,200;1,300;1,400;1,500;1,600;1,700;1,800;1,900&family=Jost:ital,wght@0,100;0,200;0,300;0,400;0,500;0,600;0,700;0,800;0,900;1,100;1,200;1,300;1,400;1,500;1,600;1,700;1,800;1,900&display=swap" rel="stylesheet">
+
+  <!-- Vendor CSS Files -->
+  <link href="assets/vendor/bootstrap/css/bootstrap.min.css" rel="stylesheet">
+  <link href="assets/vendor/bootstrap-icons/bootstrap-icons.css" rel="stylesheet">
+  <link href="assets/vendor/aos/aos.css" rel="stylesheet">
+  <link href="assets/vendor/glightbox/css/glightbox.min.css" rel="stylesheet">
+  <link href="assets/vendor/swiper/swiper-bundle.min.css" rel="stylesheet">
+
+  <!-- Main CSS File -->
+  <link href="assets/css/main.css" rel="stylesheet">
+
+  <!-- =======================================================
+  * Template Name: Arsha
+  * Template URL: https://bootstrapmade.com/arsha-free-bootstrap-html-template-corporate/
+  * Updated: Feb 22 2025 with Bootstrap v5.3.3
+  * Author: BootstrapMade.com
+  * License: https://bootstrapmade.com/license/
+  ======================================================== -->
+</head>
+
+<body class="index-page">
+
+  <header id="header" class="header d-flex align-items-center fixed-top">
+    <div class="container-fluid container-xl position-relative d-flex align-items-center">
+
+      <a href="index.html" class="logo d-flex align-items-center me-auto">
+        <!-- Uncomment the line below if you also wish to use an image logo -->
+        <!-- <img src="assets/img/logo.webp" alt=""> -->
+        <h1 class="sitename">
+Vaishu..</h1>
+
+      </a>
+
+      <nav id="navmenu" class="navmenu">
+        <ul>
+          <li><a href="#hero" class="active">Home</a></li>
+          <li><a href="#about">About</a></li>
+          <li><a href="#methodology">Methodology</a></li>
+
+          <li><a href="#skills">Skills</a></li>
+          <a href="#services">Tableau Story</a>
+
+          <li><a href="#dashboards">Dashboards</a></li>
+          <li><a href="#work-process">Work Process</a></li>
+          <li><a href="#FAQS">FAQs</a></li>
+          <li><a href="#documentation">Documentation</a></li>
+          <li><a href="#conclusion">Conclusion</a></li>
+          <li><a href="#author">Author</a></li>
+          <li><a href="#contact">Contact</a></li>
+   
+
+    
+
+ 
+          
+          <li><a href="#contact">Contact</a></li>
+        </ul>
+        <i class="mobile-nav-toggle d-xl-none bi bi-list"></i>
+      </nav>
+
+      <a class="btn-getstarted" href="#about">Get Started</a>
+
+    </div>
+  </header>
+
+  <main class="main">
+
+    <!-- Hero Section -->
+    <section id="hero" class="hero section dark-background">
+
+      <div class="container">
+        <div class="row gy-4">
+          <div class="col-lg-6 order-2 order-lg-1 d-flex flex-column justify-content-center" data-aos="zoom-out">
+           <h1>Electricity Consumption Analysis (2019–2020)</h1>
+<p>
+A data analytics project using Tableau to analyze electricity usage trends
+across states, regions, and time periods.
+</p>
+
+            <div class="d-flex">
+              <a href="#about" class="btn-get-started">Get Started</a>
+             
+          </div>
+          <div class="col-lg-6 order-1 order-lg-2 hero-img" data-aos="zoom-out" data-aos-delay="200">
+            <img src="assets/img/hero-img.png" class="img-fluid animated" alt="">
+          </div>
+        </div>
+      </div>
+
+    </section><!-- /Hero Section -->
+
+    
+
+    <!-- About Section -->
+<section id="about" class="about section">
+
+  <!-- Section Title -->
+  <div class="container section-title" data-aos="fade-up">
+    <h2>About the Project</h2>
+  </div>
+
+  <div class="container">
+    <div class="row gy-4">
+
+      <div class="col-lg-6 content" data-aos="fade-up" data-aos-delay="100">
+        <p>
+          This project focuses on analyzing electricity consumption data for the
+          years 2019 and 2020 using Tableau. The goal is to understand consumption
+          behavior across regions and states, identify peak demand periods, and
+          observe trends over time.
+        </p>
+
+        <ul>
+          <li><i class="bi bi-check2-circle"></i> Analysis of time-based electricity usage</li>
+          <li><i class="bi bi-check2-circle"></i> Region-wise and state-wise comparison</li>
+          <li><i class="bi bi-check2-circle"></i> Interactive dashboards using Tableau</li>
+        </ul>
+      </div>
+
+      <div class="col-lg-6 content" data-aos="fade-up" data-aos-delay="200">
+        <p>
+          The insights derived from this analysis can help policymakers, utility
+          providers, and researchers understand demand patterns and plan efficient
+          energy distribution strategies. Tableau dashboards were published for
+          interactive exploration and web-based access.
+        </p>
+      </div>
+
+    </div>
+  </div>
+
+</section>
+<!-- End About Section -->
+
+
+<!-- Methodology Section -->
+<section id="methodology" class="section why-us light-background">
+
+  <div class="container">
+
+    <div class="row gy-4">
+
+      <div class="col-lg-6 d-flex align-items-center">
+        <img src="assets/img/why-us.png" class="img-fluid" alt="Project Methodology">
+      </div>
+
+      <div class="col-lg-6 d-flex flex-column justify-content-center">
+
+        <div class="content" data-aos="fade-up" data-aos-delay="100">
+          <h3>Project Methodology</h3>
+          <p>
+            A structured data analytics approach was followed to ensure accurate
+            insights and reliable visualizations.
+          </p>
+        </div>
+
+        <div class="faq-container" data-aos="fade-up" data-aos-delay="200">
+
+          <div class="faq-item faq-active">
+            <h3><span>01</span> Data Collection & Preparation</h3>
+            <div class="faq-content">
+              <p>
+                Electricity consumption data was collected, cleaned, and structured
+                to remove inconsistencies and ensure accuracy.
+              </p>
+            </div>
+            <i class="faq-toggle bi bi-chevron-right"></i>
+          </div>
+
+          <div class="faq-item">
+            <h3><span>02</span> Data Visualization using Tableau</h3>
+            <div class="faq-content">
+              <p>
+                Interactive dashboards were created using Tableau to visualize
+                trends, comparisons, and consumption patterns.
+              </p>
+            </div>
+            <i class="faq-toggle bi bi-chevron-right"></i>
+          </div>
+
+          <div class="faq-item">
+            <h3><span>03</span> Performance Testing & Web Integration</h3>
+            <div class="faq-content">
+              <p>
+                Tableau Extracts were used to improve dashboard performance, and
+                the final dashboards were published on Tableau Public for web access.
+              </p>
+            </div>
+            <i class="faq-toggle bi bi-chevron-right"></i>
+          </div>
+
+        </div>
+
+      </div>
+
+    </div>
+
+  </div>
+
+</section>
+<!-- End Methodology Section -->
+ <!-- Dataset & Tools Section -->
+<section id="pricing" class="pricing section light-background">
+
+  <!-- Section Title -->
+  <div class="container section-title" data-aos="fade-up">
+    <h2>Dataset & Tools</h2>
+    <p>Resources and technologies used to complete the data analytics project</p>
+  </div>
+  <!-- End Section Title -->
+
+  <div class="container">
+
+    <div class="row gy-4">
+
+      <!-- Dataset -->
+      <div class="col-lg-4" data-aos="zoom-in" data-aos-delay="100">
+        <div class="pricing-item">
+          <h3>Dataset</h3>
+          <h4>Electricity Consumption Data</h4>
+          <ul>
+            <li><i class="bi bi-check"></i> <span>Years: 2019 – 2020</span></li>
+            <li><i class="bi bi-check"></i> <span>Region-wise & State-wise data</span></li>
+            <li><i class="bi bi-check"></i> <span>Time-based consumption records</span></li>
+            <li><i class="bi bi-check"></i> <span>Cleaned and structured dataset</span></li>
+          </ul>
+        </div>
+      </div>
+      <!-- End Dataset -->
+
+      <!-- Tools -->
+      <div class="col-lg-4" data-aos="zoom-in" data-aos-delay="200">
+        <div class="pricing-item featured">
+          <h3>Tools Used</h3>
+          <h4>Analytics Stack</h4>
+          <ul>
+            <li><i class="bi bi-check"></i> <span>Tableau (Dashboard & Story)</span></li>
+            <li><i class="bi bi-check"></i> <span>SQL (Data querying)</span></li>
+            <li><i class="bi bi-check"></i> <span>Excel (Data preparation)</span></li>
+            <li><i class="bi bi-check"></i> <span>Tableau Public (Web publishing)</span></li>
+          </ul>
+        </div>
+      </div>
+      <!-- End Tools -->
+
+      <!-- Project Type -->
+      <div class="col-lg-4" data-aos="zoom-in" data-aos-delay="300">
+        <div class="pricing-item">
+          <h3>Project Type</h3>
+          <h4>Academic / Internship</h4>
+          <ul>
+            <li><i class="bi bi-check"></i> <span>Individual Project</span></li>
+            <li><i class="bi bi-check"></i> <span>Data Analytics Domain</span></li>
+            <li><i class="bi bi-check"></i> <span>Interactive Visualization</span></li>
+            <li><i class="bi bi-check"></i> <span>Web-integrated dashboards</span></li>
+          </ul>
+        </div>
+      </div>
+      <!-- End Project Type -->
+
+    </div>
+
+  </div>
+
+</section>
+<!-- End Dataset & Tools Section -->
+
+<!-- Skills Section -->
+<section id="skills" class="skills section">
+
+  <div class="container" data-aos="fade-up" data-aos-delay="100">
+
+    <div class="row">
+
+      <div class="col-lg-6 d-flex align-items-center">
+        <img src="assets/img/illustration/illustration-10.webp" class="img-fluid" alt="Data Analytics Skills">
+      </div>
+
+      <div class="col-lg-6 pt-4 pt-lg-0 content">
+
+        <h3>Tools & Technologies Used</h3>
+        <p class="fst-italic">
+          The following tools and technologies were used to analyze electricity
+          consumption data and build interactive dashboards.
+        </p>
+
+        <div class="skills-content skills-animation">
+
+          <div class="progress">
+            <span class="skill"><span>Tableau</span> <i class="val">85%</i></span>
+            <div class="progress-bar-wrap">
+              <div class="progress-bar" role="progressbar"
+                   aria-valuenow="85" aria-valuemin="0" aria-valuemax="100"></div>
+            </div>
+          </div>
+
+          <div class="progress">
+            <span class="skill"><span>SQL (MySQL)</span> <i class="val">80%</i></span>
+            <div class="progress-bar-wrap">
+              <div class="progress-bar" role="progressbar"
+                   aria-valuenow="80" aria-valuemin="0" aria-valuemax="100"></div>
+            </div>
+          </div>
+
+          <div class="progress">
+            <span class="skill"><span>Data Analysis</span> <i class="val">75%</i></span>
+            <div class="progress-bar-wrap">
+              <div class="progress-bar" role="progressbar"
+                   aria-valuenow="75" aria-valuemin="0" aria-valuemax="100"></div>
+            </div>
+          </div>
+
+          <div class="progress">
+            <span class="skill"><span>Data Visualization</span> <i class="val">80%</i></span>
+            <div class="progress-bar-wrap">
+              <div class="progress-bar" role="progressbar"
+                   aria-valuenow="80" aria-valuemin="0" aria-valuemax="100"></div>
+            </div>
+          </div>
+
+        </div>
+
+      </div>
+    </div>
+
+  </div>
+
+</section>
+<!-- End Skills Section -->
+
+
+  
+
+    <!-- Stories Section -->
+<section id="services" class="services section light-background">
+
+  <!-- Section Title -->
+  <div class="container section-title" data-aos="fade-up">
+    <h2>Tableau Story</h2>
+    <p>Interactive story explaining electricity consumption patterns</p>
+  </div>
+  <!-- End Section Title -->
+
+  <!-- Tableau Embed -->
+  <div class="container" data-aos="fade-up" data-aos-delay="100">
+    <div class='tableauPlaceholder' id='viz1770465280553' style='position: relative'>
+      <noscript>
+        <a href='#'>
+          <img alt='Story on electricity consumption in India'
+               src='https://public.tableau.com/static/images/fi/finalproject_17704583836750/Storyonelectricityconsumptioninindia/1_rss.png'
+               style='border: none' />
+        </a>
+      </noscript>
+      <object class='tableauViz' style='display:none;'>
+        <param name='host_url' value='https%3A%2F%2Fpublic.tableau.com%2F' />
+        <param name='embed_code_version' value='3' />
+        <param name='site_root' value='' />
+        <param name='name' value='finalproject_17704583836750/Storyonelectricityconsumptioninindia' />
+        <param name='tabs' value='no' />
+        <param name='toolbar' value='yes' />
+        <param name='language' value='en-US' />
+      </object>
+    </div>
+
+    <script type='text/javascript'>
+      var divElement = document.getElementById('viz1770465280553');
+      var vizElement = divElement.getElementsByTagName('object')[0];
+      vizElement.style.width = '100%';
+      vizElement.style.height = '900px';
+      var scriptElement = document.createElement('script');
+      scriptElement.src = 'https://public.tableau.com/javascripts/api/viz_v1.js';
+      vizElement.parentNode.insertBefore(scriptElement, vizElement);
+    </script>
+  </div>
+  <!-- End Tableau Embed -->
+<!-- Dashboards Section -->
+<section id="portfolio" class="portfolio section">
+
+  <!-- Section Title -->
+  <div class="container section-title" data-aos="fade-up">
+    <h2>Dashboards</h2>
+    <p>Interactive Tableau dashboards created for electricity consumption analysis</p>
+  </div>
+  <!-- End Section Title -->
+
+  <div class="container" data-aos="fade-up" data-aos-delay="100">
+
+    <!-- Tableau Dashboard Embed -->
+    <div class="tableauPlaceholder" id="vizDashboard1" style="position: relative">
+      <noscript>
+        <a href="#">
+          <img alt="Electricity Consumption Dashboard"
+               src="https://public.tableau.com/static/images/fi/finalproject_1_17704597953820/Dashboard1/1_rss.png"
+               style="border: none" />
+        </a>
+      </noscript>
+      <object class="tableauViz" style="display:none;">
+        <param name="host_url" value="https%3A%2F%2Fpublic.tableau.com%2F" />
+        <param name="embed_code_version" value="3" />
+        <param name="site_root" value="" />
+        <param name="name" value="finalproject_1_17704597953820/Dashboard1" />
+        <param name="tabs" value="no" />
+        <param name="toolbar" value="yes" />
+        <param name="language" value="en-US" />
+      </object>
+    </div>
+
+    <script type="text/javascript">
+      var divElement = document.getElementById("vizDashboard1");
+      var vizElement = divElement.getElementsByTagName("object")[0];
+      vizElement.style.width = "100%";
+      vizElement.style.height = "900px";
+      var scriptElement = document.createElement("script");
+      scriptElement.src = "https://public.tableau.com/javascripts/api/viz_v1.js";
+      vizElement.parentNode.insertBefore(scriptElement, vizElement);
+    </script>
+    <!-- End Tableau Dashboard Embed -->
+
+    <!-- Dashboard Description -->
+    <div class="row mt-4">
+      <div class="col-lg-12 text-center">
+        <h4>Electricity Consumption Dashboard</h4>
+        <p>
+          This dashboard provides a comprehensive view of electricity consumption
+          patterns across different regions and states. Filters such as year,
+          region, and state allow users to interactively explore trends, compare
+          consumption levels, and identify high-demand areas.
+        </p>
+      </div>
+    </div>
+
+  </div>
+
+</section>
+<!-- End Dashboards Section -->
+<!-- Work Process Section -->
+<section id="work-process" class="work-process section">
+
+  <!-- Section Title -->
+  <div class="container section-title" data-aos="fade-up">
+    <h2>Work Process</h2>
+    <p>Step-by-step process followed to complete the data analytics project</p>
+  </div>
+  <!-- End Section Title -->
+
+  <div class="container" data-aos="fade-up" data-aos-delay="100">
+
+    <div class="row gy-5">
+
+      <!-- Step 1 -->
+      <div class="col-lg-4" data-aos="fade-up" data-aos-delay="200">
+        <div class="steps-item">
+          <div class="steps-image">
+            <img src="assets/img/steps/steps-1.webp" alt="Data Collection" class="img-fluid" loading="lazy">
+          </div>
+          <div class="steps-content">
+            <div class="steps-number">01</div>
+            <h3>Data Collection & Preparation</h3>
+            <p>
+              Electricity consumption data was collected and cleaned to remove
+              inconsistencies, missing values, and formatting issues.
+            </p>
+            <div class="steps-features">
+              <div class="feature-item">
+                <i class="bi bi-check-circle"></i>
+                <span>Dataset understanding</span>
+              </div>
+              <div class="feature-item">
+                <i class="bi bi-check-circle"></i>
+                <span>Data cleaning</span>
+              </div>
+              <div class="feature-item">
+                <i class="bi bi-check-circle"></i>
+                <span>Data structuring</span>
+              </div>
+            </div>
+          </div>
+        </div>
+      </div>
+
+      <!-- Step 2 -->
+      <div class="col-lg-4" data-aos="fade-up" data-aos-delay="300">
+        <div class="steps-item">
+          <div class="steps-image">
+            <img src="assets/img/steps/steps-2.webp" alt="Data Visualization" class="img-fluid" loading="lazy">
+          </div>
+          <div class="steps-content">
+            <div class="steps-number">02</div>
+            <h3>Data Visualization in Tableau</h3>
+            <p>
+              Interactive dashboards and stories were created using Tableau to
+              analyze trends, regional patterns, and time-based consumption.
+            </p>
+            <div class="steps-features">
+              <div class="feature-item">
+                <i class="bi bi-check-circle"></i>
+                <span>Calculated fields</span>
+              </div>
+              <div class="feature-item">
+                <i class="bi bi-check-circle"></i>
+                <span>Filters & parameters</span>
+              </div>
+              <div class="feature-item">
+                <i class="bi bi-check-circle"></i>
+                <span>Dashboards & stories</span>
+              </div>
+            </div>
+          </div>
+        </div>
+      </div>
+
+      <!-- Step 3 -->
+      <div class="col-lg-4" data-aos="fade-up" data-aos-delay="400">
+        <div class="steps-item">
+          <div class="steps-image">
+            <img src="assets/img/steps/steps-3.webp" alt="Performance & Deployment" class="img-fluid" loading="lazy">
+          </div>
+          <div class="steps-content">
+            <div class="steps-number">03</div>
+            <h3>Performance Testing & Web Integration</h3>
+            <p>
+              Tableau Extracts were used to improve performance, and the final
+              dashboards were published on Tableau Public for web access.
+            </p>
+            <div class="steps-features">
+              <div class="feature-item">
+                <i class="bi bi-check-circle"></i>
+                <span>Extract-based optimization</span>
+              </div>
+              <div class="feature-item">
+                <i class="bi bi-check-circle"></i>
+                <span>Performance validation</span>
+              </div>
+              <div class="feature-item">
+                <i class="bi bi-check-circle"></i>
+                <span>Web publishing</span>
+              </div>
+            </div>
+          </div>
+        </div>
+      </div>
+
+    </div>
+
+  </div>
+
+</section>
+<!-- End Work Process Section -->
+<!-- Project FAQ Section -->
+<section id="faq-2" class="faq-2 section light-background">
+
+  <!-- Section Title -->
+  <div class="container section-title" data-aos="fade-up">
+    <h2>Project FAQs</h2>
+    <p>Common questions related to the data analytics project</p>
+  </div>
+
+  <div class="container">
+    <div class="row justify-content-center">
+      <div class="col-lg-10">
+
+        <div class="faq-container">
+
+          <div class="faq-item faq-active">
+            <i class="faq-icon bi bi-question-circle"></i>
+            <h3>What is the objective of this project?</h3>
+            <div class="faq-content">
+              <p>
+                To analyze electricity consumption patterns and derive
+                insights using data visualization techniques.
+              </p>
+            </div>
+            <i class="faq-toggle bi bi-chevron-right"></i>
+          </div>
+
+          <div class="faq-item">
+            <i class="faq-icon bi bi-question-circle"></i>
+            <h3>Which tool was used for visualization?</h3>
+            <div class="faq-content">
+              <p>
+                Tableau was used to create interactive dashboards and stories.
+              </p>
+            </div>
+            <i class="faq-toggle bi bi-chevron-right"></i>
+          </div>
+
+          <div class="faq-item">
+            <i class="faq-icon bi bi-question-circle"></i>
+            <h3>Why Tableau Public?</h3>
+            <div class="faq-content">
+              <p>
+                Tableau Public allows web-based sharing of dashboards
+                without requiring licensed access.
+              </p>
+            </div>
+            <i class="faq-toggle bi bi-chevron-right"></i>
+          </div>
+
+          <div class="faq-item">
+            <i class="faq-icon bi bi-question-circle"></i>
+            <h3>What type of data was used?</h3>
+            <div class="faq-content">
+              <p>
+                Structured electricity consumption data from 2019–2020.
+              </p>
+            </div>
+            <i class="faq-toggle bi bi-chevron-right"></i>
+          </div>
+
+          <div class="faq-item">
+            <i class="faq-icon bi bi-question-circle"></i>
+            <h3>What did you learn from this project?</h3>
+            <div class="faq-content">
+              <p>
+                Data cleaning, visualization design, trend analysis,
+                and insight generation using real-world data.
+              </p>
+            </div>
+            <i class="faq-toggle bi bi-chevron-right"></i>
+          </div>
+
+        </div>
+
+      </div>
+    </div>
+  </div>
+
+</section>
+
+    
+
+  <!-- Section Title -->
+   <section id="documentation" class="section light-background">
+
+
+
+  <div class="container section-title" data-aos="fade-up">
+    <h2>Project Documentation</h2>
+    <p>Summary of methodology, analysis steps, and outcomes</p>
+  </div>
+
+  <div class="container">
+
+    <div class="row gy-5">
+<!-- Documentation Item 1 -->
+      <div class="col-xl-4 col-md-6">
+        <div class="post-item position-relative h-100" data-aos="fade-up" data-aos-delay="100">
+
+          <div class="post-content d-flex flex-column">
+            <h3 class="post-title">Data Collection</h3>
+
+            <p>
+              The dataset was collected from publicly available electricity
+              consumption records covering the years 2019–2020.
+            </p>
+
+            <hr>
+
+            <span class="readmore">Source: Public Dataset</span>
+          </div>
+
+        </div>
+      </div>
+
+      <!-- Documentation Item 2 -->
+      <div class="col-xl-4 col-md-6">
+        <div class="post-item position-relative h-100" data-aos="fade-up" data-aos-delay="200">
+
+          <div class="post-content d-flex flex-column">
+            <h3 class="post-title">Data Analysis</h3>
+
+            <p>
+              Calculated fields and filters were used in Tableau to analyze
+              trends, regional variations, and peak usage patterns.
+            </p>
+
+            <hr>
+
+            <span class="readmore">Tool: Tableau</span>
+          </div>
+
+        </div>
+      </div>
+
+      <!-- Documentation Item 3 -->
+      <div class="col-xl-4 col-md-6">
+        <div class="post-item position-relative h-100" data-aos="fade-up" data-aos-delay="300">
+
+          <div class="post-content d-flex flex-column">
+            <h3 class="post-title">Results & Insights</h3>
+
+            <p>
+              The analysis revealed higher electricity demand during summer
+              months and increased usage in urban regions.
+            </p>
+
+            <hr>
+
+            <span class="readmore">Outcome Summary</span>
+          </div>
+
+        </div>
+      </div>
+
+    </div>
+
+  </div>
+
+</section>
+ <!-- Conclusion Section -->
+<section id="conclusion" class="call-to-action section dark-background">
+
+  <img src="assets/img/bg/bg-8.webp" alt="Conclusion Background">
+
+  <div class="container">
+
+    <div class="row" data-aos="zoom-in" data-aos-delay="100">
+      <div class="col-xl-12 text-center">
+
+        <h3>Project Conclusion</h3>
+        <p>
+          This project successfully analyzed electricity consumption data for the
+          years 2019 and 2020 using Tableau. By leveraging interactive dashboards
+          and stories, meaningful insights were derived regarding regional usage
+          patterns, peak demand periods, and state-wise consumption trends.
+        </p>
+
+        <p>
+          The use of Tableau Extracts improved performance and enabled smooth
+          visualization of large datasets. Publishing the dashboards on Tableau
+          Public allowed web-based access and interactive exploration of insights.
+        </p>
+
+      </div>
+    </div>
+
+  </div>
+
+</section>
+<!-- End Conclusion Section -->
+<!-- Project Author Section -->
+<section id="team" class="team section">
+
+  <!-- Section Title -->
+  <div class="container section-title" data-aos="fade-up">
+    <h2>Project Author</h2>
+    <p>Individual contribution to the Electricity Consumption Data Analytics Project</p>
+  </div>
+  <!-- End Section Title -->
+
+  <div class="container">
+
+    <div class="row justify-content-center">
+
+      <div class="col-lg-6" data-aos="fade-up" data-aos-delay="100">
+        <div class="team-member d-flex align-items-start">
+
+          <div class="pic">
+            <!-- Replace with your own photo if you want, else keep this -->
+            
+          </div>
+
+          <div class="member-info">
+            <h4>Durga Vaishnavi Seshapu</h4>
+            <span>B.Tech CSE | Data Analytics Intern</span>
+
+            <p>
+              Designed and developed an end-to-end data analytics project using
+              Tableau to analyze electricity consumption patterns across regions,
+              states, and time periods.
+            </p>
+
+            <div class="social">
+              <!-- Optional: add real links only -->
+              <a href="https://www.linkedin.com/in/durga-vaishnavi-seshapu" target="_blank">
+                <i class="bi bi-linkedin"></i>
+              </a>
+              <a href="mailto:seshapuvaishnavi@gmail.com" target="_blank">
+                <i class="bi bi-envelope"></i>
+              </a>
+            </div>
+
+          </div>
+        </div>
+      </div>
+      <!-- End Author -->
+
+    </div>
+
+  </div>
+
+</section>
+<!-- End Project Author Section -->
+ <!-- Contact Section -->
+<section id="contact" class="contact section">
+
+  <!-- Section Title -->
+  <div class="container section-title" data-aos="fade-up">
+    <h2>Contact</h2>
+    <p>Get in touch for project discussion or academic collaboration</p>
+  </div>
+
+  <div class="container" data-aos="fade-up" data-aos-delay="100">
+
+    <div class="row gy-4 justify-content-center">
+
+      <div class="col-lg-6">
+
+        <div class="info-wrap">
+
+          <!-- Name -->
+          <div class="info-item d-flex">
+            <i class="bi bi-person flex-shrink-0"></i>
+            <div>
+              <h3>Name</h3>
+              <p>Durga Vaishnavi Seshapu</p>
+            </div>
+          </div>
+
+          <!-- Email -->
+          <div class="info-item d-flex">
+            <i class="bi bi-envelope flex-shrink-0"></i>
+            <div>
+              <h3>Email</h3>
+              <p>seshapuvaishnavi@gmail.com</p>
+            </div>
+          </div>
+
+          <!-- LinkedIn -->
+          <div class="info-item d-flex">
+            <i class="bi bi-linkedin flex-shrink-0"></i>
+            <div>
+              <h3>LinkedIn</h3>
+              <p>
+                <a href=https://www.linkedin.com/in/durga-vaishnavi-seshapu target="_blank">
+                  linkedin.com/in/durga-vaishnavi-seshapu
+                </a>
+              </p>
+            </div>
+          </div>
+
+          <!-- GitHub -->
+          <div class="info-item d-flex">
+            <i class="bi bi-github flex-shrink-0"></i>
+            <div>
+              <h3>GitHub</h3>
+              <p>
+                <a href=https://github.com/vaishnavi2211-hash/fsd-task target="_blank">
+                  github.com/vaishnavi2211-hash/fsd-task
+                </a>
+              </p>
+            </div>
+          </div>
+
+        </div>
+
+      </div>
+
+    </div>
+
+  </div>
+
+</section>
+ </main>
+
+  <footer id="footer" class="footer">
+
+    
+
+        
+
+     
+
+  </footer>
+
+  <!-- Scroll Top -->
+  <a href="#" id="scroll-top" class="scroll-top d-flex align-items-center justify-content-center"><i class="bi bi-arrow-up-short"></i></a>
+
+  <!-- Preloader -->
+  <div id="preloader"></div>
+
+  <!-- Vendor JS Files -->
+  <script src="assets/vendor/bootstrap/js/bootstrap.bundle.min.js"></script>
+  <script src="assets/vendor/php-email-form/validate.js"></script>
+  <script src="assets/vendor/aos/aos.js"></script>
+ 
+  <script src="assets/vendor/swiper/swiper-bundle.min.js"></script>
+  <script src="assets/vendor/waypoints/noframework.waypoints.js"></script>
+  <script src="assets/vendor/imagesloaded/imagesloaded.pkgd.min.js"></script>
+  <script src="assets/vendor/isotope-layout/isotope.pkgd.min.js"></script>
+
+  <!-- Main JS File -->
+  <script src="assets/js/main.js"></script>
+
+</body>
+
+</html>
